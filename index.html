@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JÁTÉK</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+    <div id="asd" class="content">
+        <div class="head">
+            <h1 class="fooldal">Regisztráció</h1>
+        </div>
+        <div class="fo">
+            <form action="javascript:void(0);">
+                <fieldset>
+                    <div class="log">
+                        <input id="user" type="text"> <br>
+                        <input id="jelszo" type="password"> <br>
+                        <button class="regisztracios" onclick="reg(user.value, jelszo.value)">Regisztrálj!</button>
+                        <a onclick="asd()"><p id="kozep">Már van felhasználód? Akkor kattints ide!</p></a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div id="anyad" class="content">
+        <div class="head">
+            <h1 class="fooldal">Bejelentkezés</h1>
+        </div>
+        <div class="fo">
+            <form>
+                <fieldset>
+                    <div class="log">
+                        <input id="user2" type="text"> <br>
+                        <input id="jelszo2" type="password"> <br>
+                        <button class="regisztracios" onclick="log(user2.value, jelszo2.value)">Bejelentkezés!</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <script src="jatek.js"></script>
+
+</body>
+</html>
