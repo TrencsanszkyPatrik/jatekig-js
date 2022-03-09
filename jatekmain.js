@@ -1,10 +1,5 @@
 document.getElementById("user").innerHTML = localStorage.key(0);
 
-lomoskulcs = sessionStorage.key(3);
-lomosertek = sessionStorage.getItem(lomoskulcs);
-document.getElementById("kulcs1").innerHTML = lomoskulcs;
-document.getElementById("kulcs").innerHTML = lomosertek;
-
 function el(inv) {
   inv.style.display = "none";
 }
